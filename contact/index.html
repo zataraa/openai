@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 2em;}
+        form {max-width: 500px; margin: auto; border: 1px solid #ccc; padding: 1em; border-radius: 4px;}
+        label {display: block; margin-top: 1em;}
+        input, textarea {width: 100%; padding: 0.5em; margin-top: 0.5em; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;}
+        button {margin-top: 1em; padding: 0.5em 1em; border: none; background-color: #4CAF50; color: white; border-radius: 4px; cursor: pointer;}
+        button:hover {background-color: #45a049;}
+    </style>
+</head>
+<body>
+    <h1>Contáctanos</h1>
+    <form action="/ruta/a/tu/backend" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
