@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ángel Parra - Abogado Penalista en Monterrey</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Ángel Parra</h1>
+            <p>Abogado Penalista en Monterrey</p>
+            <a href="#contacto" class="btn-primary">Contáctame</a>
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <div class="section-content">
+            <img src="https://via.placeholder.com/300x300" alt="Ángel Parra" />
+            <p>
+                Con años de experiencia defendiendo los derechos de mis clientes, ofrezco representación legal especializada en derecho penal en la ciudad de Monterrey.
+            </p>
+        </div>
+    </section>
+
+    <section id="servicios" class="section dark">
+        <h2>Servicios</h2>
+        <div class="section-content">
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250" alt="Defensa Penal" />
+                <h3>Defensa Penal</h3>
+                <p>Representación en todas las etapas del proceso penal.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250" alt="Asesoría Legal" />
+                <h3>Asesoría Legal</h3>
+                <p>Consultoría para comprender los derechos y opciones legales.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250" alt="Litigios" />
+                <h3>Litigios</h3>
+                <p>Defensa estratégica en tribunales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="ubicacion" class="section">
+        <h2>Ubicación</h2>
+        <div class="section-content">
+            <p>Monterrey, Nuevo León, México</p>
+            <img src="https://via.placeholder.com/600x300" alt="Mapa de Monterrey" />
+        </div>
+    </section>
+
+    <section id="contacto" class="section dark">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required />
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit" class="btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Ángel Parra. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
