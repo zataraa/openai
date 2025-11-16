@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #fdf7ef;
+  color: #2f1f0e;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+.bg-sand {
+  background: #fdf7ef;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
+}
+
+.badge-dato {
+  background: #0c5d3d;
+  color: white;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.badge-tradicion {
+  background: #7a1b68;
+  color: white;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.progress-container {
+  height: 6px;
+  width: 100%;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #ffd700, #ff9800);
+}
